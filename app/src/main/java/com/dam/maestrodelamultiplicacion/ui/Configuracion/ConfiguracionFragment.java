@@ -1,4 +1,4 @@
-package com.dam.maestrodelamultiplicacion.ui.Entrenar;
+package com.dam.maestrodelamultiplicacion.ui.Configuracion;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -10,16 +10,16 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.dam.maestrodelamultiplicacion.databinding.FragmentEntrenarBinding;
+import com.dam.maestrodelamultiplicacion.databinding.FragmentConfiguracionBinding;
 
-public class EntrenarFragment extends Fragment {
+public class ConfiguracionFragment extends Fragment {
 
+    private FragmentConfiguracionBinding binding;
     View root;
-    private FragmentEntrenarBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
-        binding = FragmentEntrenarBinding.inflate(inflater, container, false);
+        binding = FragmentConfiguracionBinding.inflate(inflater, container, false);
         root = binding.getRoot();
 
         return root;
